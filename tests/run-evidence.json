@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-16",
+  "runs": [
+    {
+      "run": "batch",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "high",
+      "completed": true,
+      "command_count": 3,
+      "read_skill": true,
+      "read_catalog": true,
+      "output_sha256": "ac255d635cedfea14127b0a53af826a14c4d46e5d22039290c73ce54d2dc2499",
+      "usage": {
+        "input_tokens": 125733,
+        "cached_input_tokens": 94848,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2803,
+        "reasoning_output_tokens": 574
+      }
+    },
+    {
+      "run": "implicit",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "high",
+      "completed": true,
+      "command_count": 2,
+      "read_skill": true,
+      "read_catalog": true,
+      "output_sha256": "a909690cb54e8db80f54bc343a93f9b3ea424f830285c368e99340ddf133c194",
+      "usage": {
+        "input_tokens": 67880,
+        "cached_input_tokens": 42496,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 219,
+        "reasoning_output_tokens": 46
+      }
+    },
+    {
+      "run": "control",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "high",
+      "completed": true,
+      "command_count": 0,
+      "read_skill": false,
+      "read_catalog": false,
+      "output_sha256": "f72e181e56987027ab7d7b2393fffcaff722fb26aaba2aa0bf408d015c592713",
+      "usage": {
+        "input_tokens": 18097,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 235,
+        "reasoning_output_tokens": 38
+      }
+    },
+    {
+      "run": "implicit-retest",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "high",
+      "completed": true,
+      "command_count": 2,
+      "read_skill": true,
+      "read_catalog": true,
+      "output_sha256": "b7f722e5060586abc12e6aab84eaf2de7f1002e020ccfc427d0f6a4cfb551d67",
+      "usage": {
+        "input_tokens": 76266,
+        "cached_input_tokens": 42496,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 277,
+        "reasoning_output_tokens": 105
+      }
+    },
+    {
+      "run": "focused",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "high",
+      "completed": true,
+      "command_count": 2,
+      "read_skill": true,
+      "read_catalog": true,
+      "output_sha256": "40cc7681d42265f1a1b07f17fad0faa01115043addc8fd14877165b9743bcbed",
+      "usage": {
+        "input_tokens": 68075,
+        "cached_input_tokens": 41472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 979,
+        "reasoning_output_tokens": 125
+      }
+    }
+  ]
+}

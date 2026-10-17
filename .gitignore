@@ -1,0 +1,9 @@
+# Local test runs, CLI logs and caches
+.tmp/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

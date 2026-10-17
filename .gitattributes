@@ -1,0 +1,2 @@
+# Evidence hashes exact bytes; preserve each file's checked-in line endings.
+* -text

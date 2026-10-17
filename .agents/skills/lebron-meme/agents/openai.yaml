@@ -1,0 +1,4 @@
+interface:
+  display_name: "詹式幽默与梗百科"
+  short_description: "用中文篮球社区的句式自然玩梗，解释来历，并核验言论反差与二创边界"
+  default_prompt: "使用 $lebron-meme，把“项目又延期了”改成一句自然的詹式幽默。"
